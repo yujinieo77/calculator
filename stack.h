@@ -1,5 +1,7 @@
 #ifndef STACK_H
 #define STACK_H
+#define STUDENT_202413115_KimYuJin 1
+
 #include <stdbool.h> 
 
 typedef int Item;
@@ -18,4 +20,5 @@ Item pop(Stack *s);
 Item peek(Stack *s);
 static void stack_underflow(void);
 static void reallocate(Stack * stack);
+
 #endif
